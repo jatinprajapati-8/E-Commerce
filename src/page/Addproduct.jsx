@@ -26,6 +26,7 @@ export default function Addproduct() {
   //   // dispatch(productdata)
   //   console.log(productdata);
   // };
+  // helooo
 
   return (
     <form className="bg-[#f1f1f1fa] w-screen" onSubmit={""}>
