@@ -11,8 +11,8 @@ body,
 #root {
   height: 100%;
   width: 100%;
-  background-image: url("src/assets/pexels.jpg");
-  background-position: center;
+  background-image: url("/src/assets/pexels.jpg");
+  background-position: center;  
   background-size: cover;
   background-attachment: fixed;
 }

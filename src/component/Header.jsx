@@ -5,6 +5,8 @@ import { ShoppingBag } from "lucide-react";
 import { Link, NavLink } from "react-router-dom";
 import { useDispatch, useSelector } from "react-redux";
 import { logoutSync } from "../Slices/AuthSlice";
+import logo from "/src/assets/preview.jpeg";
+import logo1 from "/src/assets/logo@2x-free-img-300x100.png";
 
 const navigation = [
   { name: "EVERYTHING", href: "/products", current: false },
@@ -45,7 +47,7 @@ export default function Header() {
                 <div className="flex flex-shrink-0 items-center mr-4 mt-2 pt-4">
                   <NavLink to={"/"} className="text-white font-[800]">
                     <img
-                      src="src/assets/logo@2x-free-img-300x100.png"
+                      src={logo1}
                       alt=""
                       className="w-[150px] filter invert"
                     />
@@ -89,7 +91,7 @@ export default function Header() {
                       <span className="sr-only">Open user menu</span>
                       <img
                         className="h-8 w-8 rounded-full"
-                        src={"src/assets/preview.jpeg"}
+                        src={logo}
                         alt=""
                       />
                     </Menu.Button>

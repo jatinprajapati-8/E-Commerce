@@ -9,7 +9,7 @@ const Footer = () => {
       <div className="flex space-x-20 justify-between items-center m-20">
         <div className="">
           <img
-            src="src/assets/logo@2x-free-img-300x100.png"
+            src="/src/assets/logo@2x-free-img-300x100.png"
             className="h-[40px] w-[110px]"
           />
           <h2 className="text-[24px] font-[500] mt-8">
